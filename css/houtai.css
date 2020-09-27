@@ -1,0 +1,219 @@
+@charset "utf=8";
+@import "public.css";
+.wrap {
+  width: 100%;
+}
+.wrap .wrap_top {
+  background-color: #e9967a;
+}
+.wrap .wrap_top p {
+  font-size: 28px;
+  color: #fefbfa;
+  padding: 15px 50px;
+}
+.wrap .wrap_bott {
+  background-color: #ececec;
+}
+.wrap .wrap_bott .tjsp {
+  font-size: 20px;
+  color: #333333;
+  padding: 30px;
+}
+.wrap .wrap_bott .spmc1 {
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.wrap .wrap_bott .spmc1 i {
+  color: red;
+}
+.wrap .wrap_bott .spmc1 span {
+  width: 85px;
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+.wrap .wrap_bott .spmc1 .in1 {
+  width: 696px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding-left: 22px;
+  color: #888;
+  font-size: 12px;
+  background-color: white;
+}
+.wrap .wrap_bott .spmc1 .xpfb1 {
+  display: inline-block;
+  border: 1px solid #888;
+  padding: 8px;
+  font-size: 14px ;
+  color: #393939;
+  border-radius: 4px;
+}
+.wrap .wrap_bott .spmc1 .in2 {
+  margin-right: 5px;
+}
+.wrap .wrap_bott .spmc1 button {
+  border: 1px solid white;
+  background-color: #438eb9;
+  padding: 8px;
+  margin-left: 15px ;
+  border-radius: 4px;
+  font-size: 14px ;
+  color: white;
+}
+.wrap .wrap_bott .spyj {
+  width: 80%;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrap .wrap_bott .spyj1 i {
+  color: red;
+}
+.wrap .wrap_bott .spyj1 span {
+  width: 85px;
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+.wrap .wrap_bott .spyj1 .in2 {
+  width: 155px;
+  height: 26px;
+  border: 1px solid #ccc;
+  color: #888;
+  font-size: 12px;
+  background-color: white;
+}
+.wrap .wrap_bott .szgg {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.wrap .wrap_bott .szgg .s1 {
+  width: 85px;
+  display: inline-block;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #333333;
+}
+.wrap .wrap_bott .szgg .in1 {
+  width: 696px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding-left: 22px;
+  color: #888;
+  font-size: 12px;
+  background-color: white;
+}
+.wrap .wrap_bott .szgg .b1 {
+  font-size: 12px;
+}
+.wrap .wrap_bott .szgg .s2 {
+  width: 85px;
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: #333333;
+}
+.wrap .wrap_bott .szgg p {
+  display: inline-block;
+}
+.wrap .wrap_bott .szgg .b2 {
+  font-size: 14px;
+  margin-right: 40px;
+}
+.wrap .wrap_bott .cptp1 {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.wrap .wrap_bott .cptp1 p {
+  display: inline-block;
+}
+.wrap .wrap_bott .cptp1 p i {
+  color: red;
+}
+.wrap .wrap_bott .cptp1 p span {
+  width: 85px;
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+.wrap .wrap_bott .nrjs {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.wrap .wrap_bott .nrjs p {
+  float: left;
+}
+.wrap .wrap_bott .nrjs p i {
+  color: red;
+}
+.wrap .wrap_bott .nrjs p span {
+  width: 85px;
+  display: inline-block;
+  padding: 8px;
+  font-size: 16px;
+  color: #333333;
+}
+.wrap .wrap_bott .nrjs .in3 {
+  width: 1190px;
+  height: 204px;
+  background-color: white;
+  border: 1px solid #ccc;
+  float: left;
+}
+.wrap .wrap_bott .bottom {
+  display: flex;
+  justify-content: center;
+}
+.wrap .wrap_bott .bottom button {
+  background-color: #438eb9;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  margin: 0 30px 30px 30px;
+}
+.wrap .wrap_bott .bottom .bu2 {
+  background-color: #e9967a;
+}
+.wrap .wrap_bott .bottom .bu3 {
+  background-color: #bbb;
+}
+@media screen and (max-width: 768px) {
+  .wrap .wrap_bott .spmc1 {
+    position: relative;
+  }
+  .wrap .wrap_bott .spmc1 .xpfb1 {
+    display: block;
+    width: 330px;
+    margin-top: 20px;
+  }
+  .wrap .wrap_bott .spmc1 button {
+    position: absolute;
+    top: 25px;
+    right: 240px;
+  }
+  .wrap .wrap_bott .spyj1 .in2 {
+    width: 560px;
+  }
+  .wrap .wrap_bott .szgg p {
+    display: block;
+  }
+  .wrap .wrap_bott .cptp1 p {
+    display: block;
+  }
+  .wrap .wrap_bott .nrjs p {
+    display: block;
+    clear: both;
+  }
+  .wrap .wrap_bott .nrjs .in3 {
+    clear: both;
+    width: 590px;
+  }
+}

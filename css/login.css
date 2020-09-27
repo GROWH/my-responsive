@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import "public.css";
+.wrap {
+  width: 100%;
+  background: linear-gradient(white, #e9987c);
+}
+.wrap .wrap_in {
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.wrap .wrap_in .wrap_logo {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+}
+.wrap .wrap_in .wrap_logo b {
+  font-size: 80px;
+  color: #ff4500;
+}
+.wrap .wrap_in .wrap_form {
+  width: 100%;
+  height: 440px;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+.wrap .wrap_in .wrap_form p {
+  font-size: 26px;
+  color: #333333;
+  font-family: "宋体";
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.wrap .wrap_in .wrap_form form {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+.wrap .wrap_in .wrap_form form input {
+  border: 2px solid #d9d9d9;
+  margin: 10px 0;
+}
+.wrap .wrap_in .wrap_form form .in1 {
+  width: 90%;
+  height: 36px;
+  border-radius: 4px;
+}
+.wrap .wrap_in .wrap_form form .in4 {
+  margin-right: 5px;
+}
+.wrap .wrap_in .wrap_form form button {
+  width: 91%;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #ff4500;
+  color: white;
+}
+.wrap .wrap_in .wrap_form .lianjie {
+  width: 90%;
+  text-align: center;
+  margin-top: 5px;
+}
+.wrap .wrap_in .wrap_form .lianjie .s1 {
+  font-size: 12px;
+  color: #333333;
+}
+.wrap .wrap_in .wrap_form .lianjie .s2 {
+  font-size: 14px;
+  color: #007acc;
+  text-decoration: underline;
+}
+@media screen and (max-width: 1199px) {
+  .wrap .wrap_in {
+    width: 970px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrap .wrap_in {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrap .wrap_in {
+    width: 690px;
+  }
+  .wrap .wrap_in .wrap_logo b {
+    display: none;
+  }
+}
